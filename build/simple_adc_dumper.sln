@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "globals", "..\globals\build\globals.vcxproj", "{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adc_gui", "..\adc_gui\build\adc_gui.vcxproj", "{40914217-0D68-46E2-AE79-40A146AC74FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Remote Debug|Win32 = Remote Debug|Win32
+		Remote Debug|x64 = Remote Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Debug|Win32.Build.0 = Debug|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Debug|x64.ActiveCfg = Debug|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Release|Win32.ActiveCfg = Release|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Release|Win32.Build.0 = Release|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Release|x64.ActiveCfg = Release|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Remote Debug|Win32.ActiveCfg = Remote Debug|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Remote Debug|Win32.Build.0 = Remote Debug|Win32
+		{C22A71ED-D2C7-4C56-A62E-A4DEB4A283E4}.Remote Debug|x64.ActiveCfg = Remote Debug|Win32
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Debug|Win32.Build.0 = Debug|Win32
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Debug|x64.ActiveCfg = Debug|x64
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Debug|x64.Build.0 = Debug|x64
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Release|Win32.ActiveCfg = Release|Win32
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Release|Win32.Build.0 = Release|Win32
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Release|x64.ActiveCfg = Release|x64
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Release|x64.Build.0 = Release|x64
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Remote Debug|Win32.ActiveCfg = Debug|Win32
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Remote Debug|Win32.Build.0 = Debug|Win32
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Remote Debug|x64.ActiveCfg = Debug|x64
+		{40914217-0D68-46E2-AE79-40A146AC74FD}.Remote Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

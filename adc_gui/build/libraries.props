@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <WXWIDGETS>d:\Development\C++\wxWidgets\wxWidgets29\</WXWIDGETS>
+    <PLATFORMSDK>c:\Program Files\Microsoft SDKs\Windows\v7.1\</PLATFORMSDK>
+    <VLD>c:\Program Files (x86)\Visual Leak Detector\</VLD>
+    <WTL>d:\Development\C++\WTL\WTL80\</WTL>
+    <DIRECTSHOW>$(PLATFORMSDK)\Samples\multimedia\directshow\baseclasses\</DIRECTSHOW>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ExecutablePath>$(PLATFORMSDK)\bin\NETFX 4.0 Tools;$(PLATFORMSDK)\bin;$(NETCDF)\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(VLD)\include;$(WTL)\include;$(DIRECTSHOW);$(PLATFORMSDK)\include;$(WXWIDGETS)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VLD)\lib\Win32\;$(PLATFORMSDK)\lib;$(WXWIDGETS)\lib\vc_lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(WXWIDGETS)\src\msw;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="WXWIDGETS">
+      <Value>$(WXWIDGETS)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PLATFORMSDK">
+      <Value>$(PLATFORMSDK)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VLD">
+      <Value>$(VLD)</Value>
+    </BuildMacro>
+    <BuildMacro Include="WTL">
+      <Value>$(WTL)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DIRECTSHOW">
+      <Value>$(DIRECTSHOW)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
